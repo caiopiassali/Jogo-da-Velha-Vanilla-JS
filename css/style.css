@@ -1,0 +1,207 @@
+/**
+* Jogo da Velha - Vanilla JS
+* File: style.css
+* Author: Caio Piassali
+* Github: https://github.com/caiopiassali
+* Date: 31/10/2018
+*/
+
+html {
+	background: #000;
+}
+
+.dv-jogo {
+	margin: 0 auto;
+	width: 40%;
+}
+
+button {
+	background: none;
+	border: none;
+}
+
+button img {
+	width: 100%;
+	height: 100%;
+}
+
+button img {
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+.l0 button {
+	width: 32%;
+}
+
+.l1 button {
+	width: 32%;
+}
+
+.l2 button {
+	width: 32%;
+}
+
+button#c0 {
+	border-right: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	outline: none;
+}
+
+button#c1 {
+	border-right: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	outline: none;
+}
+
+button#c2 {
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-right: 3px solid #000;
+	outline: none;
+}
+
+button#c3 {
+	border-right: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	outline: none;
+}
+
+button#c4 {
+	border-right: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	outline: none;
+}
+
+button#c5 {
+	border-bottom: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-right: 3px solid #000;
+	outline: none;
+}
+
+button#c6 {
+	border-right: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	outline: none;
+}
+
+button#c7 {
+	border-right: 3px solid #FFF;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	outline: none;
+}
+
+button#c8 {
+	border-right: 3px solid #000;
+	border-left: 3px solid #000;
+	border-top: 3px solid #000;
+	border-bottom: 3px solid #000;
+	outline: none;
+}
+
+#vencedor {
+	display: block;
+	width: 50%;
+	margin: 10px auto;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 22px;
+	color: #FFF;
+
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+#info-top {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 22px;
+	text-align: center;
+
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+
+#info-bottom {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	font-family: Tahoma;
+	font-size: 22px;
+
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+.i-l {
+	width: 33%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+.i-c {
+	width: 33%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+.i-r {
+	width: 33%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #FFF;
+	animation-name: fadein;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

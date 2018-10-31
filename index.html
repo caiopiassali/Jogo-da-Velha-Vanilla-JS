@@ -1,0 +1,43 @@
+<!--
+    /**
+    * Jogo da Velha - Vanilla JS
+    * File: index.html
+    * Author: Caio Piassali
+    * Github: https://github.com/caiopiassali
+    * Date: 31/10/2018
+    */
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jogo da Velha</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <div class="dv-jogo">
+            <div class="l0">
+                <button id="c0" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c1" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c2" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+            </div>
+            <div class="l1">
+                <button id="c3" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c4" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c5" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+            </div>
+            <div class="l2">
+                <button id="c6" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c7" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+                <button id="c8" value="" onclick="verificar(id)"><img src='images/V.png'/></button>
+            </div>
+        </div>
+        <span id="vencedor"><br/></span>
+        <div id="info-top"><span class="i-l">Jogador(X)</span> <span class="i-c">Computador(O)</span> <span class="i-r">Empates</span></div>
+        <div id="info-bottom"><span class="i-l">0</span>  <span class="i-c">0</span>  <span class="i-r">0</span></div>
+    </body>
+</html>
